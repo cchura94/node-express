@@ -32,5 +32,5 @@ misrutas(app)
 
 // levantar el servidor
 app.listen(puerto, () => {
-    console.log(`Servidor levantado en http://${host}:${puerto}`);
+    console.log(`Servidor corriendo en http://${host}:${puerto}`);
 })

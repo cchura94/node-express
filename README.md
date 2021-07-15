@@ -23,3 +23,18 @@ git clone direccion_git
 ```
 git add .
 ```
+
+## Asignar una mensaje de modificación
+```
+git commit -m "Estructura base de Nodejs + express"
+```
+
+## Asignar un repositorio remoto de github
+```
+git remote add origin https://github.com/cchura94/node-express.git
+```
+
+## Subir al repositorio remoto en github en la rama master
+```
+git push origin master
+```
