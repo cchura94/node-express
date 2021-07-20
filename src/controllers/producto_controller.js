@@ -1,4 +1,7 @@
+const { Categoria } = require("./../models/index")
+
 const listar = function(req, res){
+    let categorias = Categoria.findAll();
     res.send("Lista de Productos")
 }
 
